@@ -1,0 +1,24 @@
+POST http://localhost:8080/register 
+Content-Type: application/json
+
+{
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "johndoe@gmail.com",
+    "password": "John123"
+}
+
+###
+
+POST http://localhost:8080/login
+Content-Type: application/json
+
+{
+     "email": "johndoe@gmail.com",
+    "password": "John123"
+}
+
+###
+
+POST http://localhost:8080/getjoke
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InZsYWRvLmxldmVudGljNDBAZ21haWwuY29tIiwiZmlyc3ROYW1lIjoiVmxhZG8iLCJsYXN0TmFtZSI6IkxldmVudGljIiwiaWF0IjoxNjMyMTcyMDYwLCJleHAiOjE2MzIyNTg0NjB9.UBlV3yXlnJqQeF6xQ2NBKswx4NA0toqBBvipSXxMHHc

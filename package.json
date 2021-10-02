@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.6",
+    "axios": "^0.21.4",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.0",
+    "sequelize": "^6.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "nodemon server.js"
+  },
+  "name": "joke-sender-api",
+  "version": "1.0.0",
+  "main": "server.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "This is an API created using Express.js, Sequelize ORM and MySQL. User auth is done using Json web tokens. The api is used for a user to register and login using their email, after which the user can acces the protected joke sending route. The route uses the ```https://api.icndb.com/jokes/``` API to send a random joke with the user's fname to the user's email. The e-mail is sent using SendGrid, but this can easily be accomplished using nodemailer."
+}
