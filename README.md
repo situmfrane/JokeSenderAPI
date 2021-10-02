@@ -20,8 +20,8 @@ Make the API requests using REST Client extension for VS Code using the requests
 ## Route breakdown
 The routes can be tested using Rest client extension for VSCode (rest file is included in project)   
     
-POST http://localhost:8080/register - Registers new user 
-POST http://localhost:8080/register - Logs user in  
-POST http://localhost:8080/register - Sends the joke   
+POST http://localhost:8080/register - Registers new user    
+POST http://localhost:8080/register - Logs user in     
+POST http://localhost:8080/register - Sends the joke      
 
 
